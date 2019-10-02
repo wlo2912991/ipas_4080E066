@@ -32,33 +32,40 @@ type of malware.
 ■ Bots              #殭屍電腦，透過木馬程式秘密地放入你電腦的小程式。幕後黑手的「殭屍網路管理者」可以中央控管許多殭屍電腦。
 ■ RAT               #遠端存取木馬，允許遠端攻擊者在未經使用者許可或授權下執行惡意和資料竊取行為。
 ■ Logic bomb        #邏輯炸彈，是一些嵌入在正常軟體中並在特定情況下執行的惡意程式碼。
-■ Backdoor          #後門程式，是一種駭客直接入侵電腦的行為，利用繞過電腦正常存取管道的手法，將惡性程式植入受害者的電腦系統以竊取重要資料或惡意破壞。
+■ Backdoor          #後門程式，是一種駭客直接入侵電腦的行為，利用繞過電腦正常存取管道的手法，
+將惡性程式植入受害者的電腦系統以竊取重要資料或惡意破壞。
 
 1.2 Compare and contrast types of attacks.
-■ Social engineering
-■ Phishing
-■ Spear phishing
-■ Whaling
-■ Vishing
-■ Tailgating
-■ Impersonation
-■ Dumpster diving
-■ Shoulder surfing
-■ Hoax
-■ Watering hole attack
+■ Social engineering   #社交工程，利用大衆的疏於防範的小詭計，讓受害者掉入陷阱。
+■ Phishing             #網路釣魚，從電子通訊中，透過偽裝成信譽卓著的法人媒體以獲得如用戶名稱、密碼和信用卡明細等個人敏感資訊的犯罪詐騙過程。
+■ Spear phishing       #魚叉式網路釣魚，只針對特定目標進行攻擊的網路釣魚攻擊。當進行攻擊的駭客鎖定目標後，會以電子郵件的方式，
+假冒該公司或組織的名義寄發難以辨真偽之檔案，誘使員工進一步登錄其帳號密碼，使攻擊者可以以此藉機安裝特洛伊木馬或其他間諜軟體，竊取機密。
+
+■ Whaling              #網路捕鯨，針對性網路釣魚手法專門鎖定企業高階主管，試圖利用電子郵件來騙取資訊。
+■ Vishing              #語音釣魚，網路釣魚（Phishing）的電話版，shing 這個詞是從 voice (語音) 加 phishing (網路釣魚) 這二個字組合而來。
+■ Tailgating           #尾隨，就如字面意思的跟著其他人，利用他們的憑證來進入限制區域。
+■ Impersonation        #假冒攻擊
+■ Dumpster diving      #垃圾翻找，蒐集被監視者所傾倒的垃圾，從垃圾中去尋找關鍵資訊的蛛絲馬跡。
+■ Shoulder surfing     #肩隙偷覽
+■ Hoax                 #惡作劇病毒
+■ Watering hole attack #水坑，黑客通過分析被攻擊者的網絡活動規律，尋找被攻擊者經常訪問的網站弱點，入侵這些防禦措施相對薄弱的伺服器並植入惡意程序，
+當用戶訪問了這些網站，就會遭受感染。
+
 ■ Principles (reasons for effectiveness)
-■ Authority
+■ Authority            #盲信權威，社交工程
 ■ Intimidation
 ■ Consensus
-■ Scarcity
+■ Scarcity             #物稀為貴，社交工程
 ■ Familiarity
 ■ Trust
 ■ Urgency
 ■ Application/service attacks
-■ DoS
-■ DDoS
-■ Man-in-the-middle
-■ Buffer overflow
+■ DoS                  #磁碟作業系統
+■ DDoS                 #阻斷服務攻擊，其目的在於使目標電腦的網路或系統資源耗盡，使服務暫時中斷或停止，導致其正常用戶無法存取。
+■ Man-in-the-middle    #中間人攻擊，攻擊者與通訊的兩端分別建立獨立的聯絡，並交換其所收到的資料，
+使通訊的兩端認為他們正在通過一個私密的連接與對方直接對話，但事實上整個對談都被攻擊者完全控制。
+■ Buffer overflow      #緩衝區溢位，是針對程式設計缺陷，向程式輸入緩衝區寫入使之溢位的內容（通常是超過緩衝區能儲存的最巨量資料量的資料），
+從而破壞程式執行、趁著中斷之際並取得程式乃至系統的控制權。
 ■ Injection
 ■ Cross-site scripting
 ■ Cross-site request forgery
