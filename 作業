@@ -67,10 +67,10 @@ type of malware.
 ■ Buffer overflow      #緩衝區溢位，是針對程式設計缺陷，向程式輸入緩衝區寫入使之溢位的內容（通常是超過緩衝區能儲存的最巨量資料量的資料），
 從而破壞程式執行、趁著中斷之際並取得程式乃至系統的控制權。
 ■ Injection
-■ Cross-site scripting
-■ Cross-site request forgery
-■ Privilege escalation
-■ ARP poisoning
+■ Cross-site scripting #跨網站指令碼，是一種網站應用程式的安全漏洞攻擊。
+■ Cross-site request forgery #跨網站的偽造要求，在使用者不知情的情況下，讓瀏覽器送出請求給目標網站以達攻擊目的。 
+■ Privilege escalation #特權提升，利用作業系統或應用軟體中的程式錯誤、設計缺陷或組態疏忽來取得比應用程式開發者或系統管理員預期的更高的特權。
+■ ARP poisoning        #ARP欺騙，針對乙太網路位址解析協定（ARP）的一種攻擊技術。
 ■ Amplification
 ■ DNS poisoning
 ■ Domain hijacking
