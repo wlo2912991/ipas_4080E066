@@ -83,23 +83,24 @@ type of malware.
 ■ Clickjacking         #點擊劫持，一種將惡意程式隱藏在看似正常的網頁中,並誘使使用者點擊的手段。
 ■ Session hijacking    #會話劫持
 ■ URL hijacking
-■ Typo squatting
-■ Driver manipulation
+■ Typo squatting       #誤植域名，一種域名搶注的形式，常常會導致品牌劫持及釣魚式攻擊。
+■ Driver manipulation 
 ■ Shimming
-■ Refactoring
+■ Refactoring          #重構，有的人認為是砍掉重練、也有人說是效能優化。
 ■ MAC spoofing
-■ IP spoofing
+■ IP spoofing          #IP位址欺騙，帶有假的源IP位址的IP協議分組（數據報），目的是冒充另一個計算系統身份。
 ■ Wireless attacks
-■ Replay
-■ IV
-■ Evil twin
-■ Rogue AP
+■ Replay                #第80行出現過
+■ IV                    #羅馬數字的4?
+■ Evil twin             #雙面惡魔，駭客使用兩張網卡，一張連接HotSpot的無線基地台，另一張則將SSID設成與HotSpot相同，假扮成HotSpot無線基地台。
+■ Rogue AP              #偽冒基地台?
 ■ Jamming
 ■ WPS
-■ Bluejacking
-■ Bluesnarfing
-■ RFID
-■ NFC
+■ Bluejacking           #藍劫
+■ Bluesnarfing          #藍芽侵吞
+■ RFID                  #無線射頻辨識，一種無線通訊技術，可以通過無線電訊號識別特定目標並讀寫相關數據，
+而無需識別系統與特定目標之間建立機械或者光學接觸。
+■ NFC                   #近距離無線通訊，讓兩個電子裝置（其中一個通常是行動裝置，例如智慧型手機）在相距幾公分之內進行通訊。
 ■ Disassociation
 ■ Cryptographic attacks
 ■ Birthday
