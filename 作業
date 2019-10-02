@@ -70,17 +70,18 @@ type of malware.
 ■ Cross-site scripting #跨網站指令碼，是一種網站應用程式的安全漏洞攻擊。
 ■ Cross-site request forgery #跨網站的偽造要求，在使用者不知情的情況下，讓瀏覽器送出請求給目標網站以達攻擊目的。 
 ■ Privilege escalation #特權提升，利用作業系統或應用軟體中的程式錯誤、設計缺陷或組態疏忽來取得比應用程式開發者或系統管理員預期的更高的特權。
-■ ARP poisoning        #ARP欺騙，針對乙太網路位址解析協定（ARP）的一種攻擊技術。
-■ Amplification
+■ ARP poisoning        #ARP欺騙，針對乙太網路位址解析協定（ARP）的一種攻擊技術，可讓網路上特定電腦或所有電腦無法正常連線。
+■ Amplification        #放大
 ■ DNS poisoning
 ■ Domain hijacking
-■ Man-in-the-browser
-■ Zero day
-■ Replay
-■ Pass the hash
+■ Man-in-the-browser   #瀏覽器中間人攻擊，它並非像過去側聽網路封包，而是直接成為瀏覽器一部份，
+在企業或金融機構傳送網頁給最終用戶的過程，從中透過竄改網頁或盜取帳密等手段令用戶受害。
+■ Zero day             #零時差漏洞，還沒有修補程式的安全漏洞。
+■ Replay               #重播
+■ Pass the hash        #傳遞雜湊
 ■ Hijacking and related attacks
-■ Clickjacking
-■ Session hijacking
+■ Clickjacking         #點擊劫持，一種將惡意程式隱藏在看似正常的網頁中,並誘使使用者點擊的手段。
+■ Session hijacking    #會話劫持
 ■ URL hijacking
 ■ Typo squatting
 ■ Driver manipulation
