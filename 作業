@@ -18,19 +18,21 @@ Appendix Answers to Review Questions 559
 ```
 1.1 Given a scenario, analyze indicators of compromise and determine the
 type of malware.
- ■ Viruses
- ■ Crypto-malware
- ■ Ransomware
- ■ Worm
- ■ Trojan 
-■ Rootkit
-■ Keylogger
-■ Adware
-■ Spyware
-■ Bots
-■ RAT
-■ Logic bomb
-■ Backdoor
+ ■ Viruses          #電腦病毒，會自我複製、可以快速蔓延的程式。病毒被設計來破壞你的電腦。
+ ■ Crypto-malware   #木馬形式的勒索軟體
+ ■ Ransomware       #勒索軟體，會加密文件以達到勒索目的的軟體。
+ ■ Worm             #蠕蟲，一種能夠自我複製的電腦程式，蠕蟲不需要附在別的程式內，電腦蠕蟲可能會執行垃圾程式碼以發動分散式阻斷服務攻擊。
+ ■ Trojan           #特洛伊木馬，會執行惡意行為但不會進行複製的程式。
+■ Rootkit           #隱藏其他程式行程的軟體，可視為一項技術，後來Rootkit也被駭客用在入侵和攻擊他人的電腦系統上，電腦病毒、
+間諜軟體等也常使用Rootkit來隱藏蹤跡。
+
+■ Keylogger         #鍵盤側錄，最常見的方法為在客戶電腦上植入木馬程式後通過其實現鍵盤監聽。
+■ Adware            #廣告軟體，未經你許可下派送廣告給你（如彈跳式視窗或網路連結）的軟體。
+■ Spyware           #間諜軟體，在你的電腦上安裝或執行（你不知情下）監視、追蹤和回報你電子蹤跡給間諜軟體作者的軟體。
+■ Bots              #殭屍電腦，透過木馬程式秘密地放入你電腦的小程式。幕後黑手的「殭屍網路管理者」可以中央控管許多殭屍電腦。
+■ RAT               #遠端存取木馬，允許遠端攻擊者在未經使用者許可或授權下執行惡意和資料竊取行為。
+■ Logic bomb        #邏輯炸彈，是一些嵌入在正常軟體中並在特定情況下執行的惡意程式碼。
+■ Backdoor          #後門程式，是一種駭客直接入侵電腦的行為，利用繞過電腦正常存取管道的手法，將惡性程式植入受害者的電腦系統以竊取重要資料或惡意破壞。
 
 1.2 Compare and contrast types of attacks.
 ■ Social engineering
