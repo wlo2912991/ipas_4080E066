@@ -147,7 +147,7 @@ type of malware.
 ■ Passively test security controls
 ■ Identify vulnerability
 ■ Identify lack of security controls
-■ Identify common misconfigurations
+■ Identify common misconfigurations  #查到這裡了
 ■ Intrusive vs. non-intrusive
 ■ Credentialed vs. non-credentialed
 ■ False positive
