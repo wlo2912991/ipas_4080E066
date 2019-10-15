@@ -41,18 +41,21 @@ sales    manager     suspicious     association   encouraging     link     legit
 # 3. 
 ```
 You are a security administrator for a medium-sized bank. 
-You have discovered a piece ofsoftware on your bank’s database server that is not supposed to be there.
-It appears thatthe software will begin deleting database files if a specific employee is terminated.
+You have discovered a piece of software on your bank’s database server that is not supposed to be there.
+It appears that the software will begin deleting database files if a specific employee is terminated.
 
 
 What best describes this?
-A. Worm
+A. Worm(蠕蟲)
 B. Logic bomb
 C. Trojan horse
 D. Rootkit
 
-
-
+medium-sized   bank    a piece of   database    supposed 
+  中型          銀行      一塊        數據庫      應該
+appears    begin   deleting  specific   employee    terminated
+  出現      開始     刪除中     具體       員工        已終止
+    
 
 ```
 # 5.
