@@ -110,8 +110,104 @@ As part of the test, you will be given a login with minimal access and will atte
 
 What is this called?
 
-A. Privilege escalation
-B. Session hijacking
+A. Privilege escalation(特權提升)
+B. Session hijacking(工作階段攔截)
 C. Root grabbing
 D. Climbing
+
+performing    penetration test    part   given   minimal      access
+    執行            滲透測試        部分   給予     最小的       訪問
+  attempt       gain       account
+    嘗試        獲得        帳戶
+    
+    What is this called?(這個行為叫甚麼?)
+    
+    答案:A(得到管理員帳戶)
+    
+```
+
+# 62.
+```
+Mary has discovered that a web application used by her company does not always handle multithreading properly, 
+particularly when multiple threads access the same variable.
+This could allow an attacker who discovered this vulnerability to exploit it and crash the server. 
+
+What type of error has Mary discovered?
+A. Buffer overflow (緩衝區溢位)
+B. Logic bomb  (邏輯炸彈)
+C. Race conditions (資源競爭)
+D. Improper error handling
+
+discoverded  handle   multithreading   properly
+  發現        處理          多執行緒     適當地
+   
+particularly   multiple threads     same  variable
+    尤其            多執行緒         相同     變量
+   
+ allow    discovered   vulnerability  exploit  crash
+  允許        發現        脆弱性         利用    崩潰
+  
+  答案:A(利用發現的弱點讓伺服器崩潰)
+```
+
+# 63.
+```
+An attacker is trying to get access to your network. 
+He is sending users on your network a link to a freeware stock-monitoring program.
+However, 
+that stock-monitoring program has attached to it software that will give the attacker access to any machine that it is installed on. 
+
+What type of attack is this?
+A. Rootkit  (隱藏其他程式行程的軟體)
+B. Trojan horse
+C. Spyware  (間諜軟體)
+D. Boot sector virus (開機型病毒)
+
+sending   freeware   program    However  software
+ 發送      免費軟體    程序       然而      軟體
+ 
+ 答案:C
+```
+
+# 64.
+
+```
+Acme Company uses its own internal certificate server for all internal encryption.
+However,
+their certificate authority only publishes a CRL once per week
+
+Does this pose a danger, and if so what?
+
+A. Yes, this means a revoked certificate could be used for up to seven days.
+B. No, this is standard for all certificate authorities.
+C. Yes, this means it would be easy to fake a certificate.
+D. No, since this is being used only internally.
+
+internal  own    certificate   encryption
+  內部    擁有       證書         加密
+authority   publishes   once    per
+  權力        公布       一旦     每
+ danger   means revoked  standard   authorities
+  危險    方法   被撤銷    標準         當局
+```
+
+# 65.
+
+```
+When a program has variables, 
+especially arrays, 
+and does not check the boundary values before inputting data, 
+
+what attack is the program vulnerable to?
+A. XSS (過利用網頁開發時留下的漏洞，通過巧妙的方法注入惡意指令程式碼到網頁)
+B. CRSF (跨站請求偽造)
+C. Buffer overflow (緩衝區溢位)
+D. Logic bomb
+
+vulnerable   boundary   values  inputting  variables
+    弱點        邊界     價值       輸入       變數
+especially    arrays
+    特別       矩陣
+    
+  答案:c(程式設計缺陷)
 ```
