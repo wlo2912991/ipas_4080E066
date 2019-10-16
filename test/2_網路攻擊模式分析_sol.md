@@ -188,10 +188,12 @@ D. No, since this is being used only internally.
 
 internal  own    certificate   encryption
   內部    擁有       證書         加密
-authority   publishes   once    per
-  權力        公布       一旦     每
+authority   publishes   once    per     CRL
+  權力        公布       一旦     每   證書吊銷列表
  danger   means revoked  standard   authorities
   危險    方法   被撤銷    標準         當局
+  
+  答案:A(7天發布一次吊銷列表 所以失去效力的最多可以使用七天)
 ```
 
 # 65.
