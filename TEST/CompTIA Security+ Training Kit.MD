@@ -34,7 +34,8 @@ C. 50 percent
 D. 25 percent
 
 
-4. You are conducting a quantitative risk assessment for an organization to identify the risk of a fire in a data center.
+4. You are conducting a quantitative risk assessment for an organization
+to identify the risk of a fire in a data center.
 The data center is valued at $10 million and you expect a
 fire to occur once every 50 years that will damage three-quarters of the data center (including equipment).
 
@@ -618,7 +619,9 @@ D. Crafting of a non-forgeable identity reference of hardware
 10. Which of the following is not true in regard to an HSM? 
 A. Some HSMs have PCI interfaces. 
 B. HSMs provide for accelerated encryption computation. 
-C. Proprietary forms of HSM are used in specialty situations, such as ATMs, point-ofsale devices (credit card terminals), and smart card readers. 
+C. Proprietary forms of HSM are used in specialty situations, such as ATMs,
+point-ofsale devices (credit card terminals), and smart card readers. 
+
 D. HSMs are commonly found as components on most off-the-shelf motherboards.
 ```
 #### CH.11.Identity and access control
