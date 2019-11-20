@@ -26,7 +26,9 @@ sudo aptitude install httrack
 一個使用例子：
 httrack "http://www.all.net/" -O "/tmp/www.all.net" "+*.all.net/*" -v
 
-它的意思是：以http://www.all.net/ 为起始URL，输出到/tmp/www.all.net文件夹，范围是www.all.net域名下的所有文件，并显示所有错误信息（verbose）。更詳細的資訊請看官網上的Users Guide[3]。
+它的意思是：以http://www.all.net/ 为起始URL，输出到/tmp/www.all.net文件夹，
+范围是www.all.net域名下的所有文件，并显示所有错误信息（verbose）。
+更詳細的資訊請看官網上的Users Guide[3]。
 
 https://www.youtube.com/watch?v=EygeNcS0RRU  影片教學
 ```
