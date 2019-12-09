@@ -18,8 +18,8 @@ II.資料庫理論:
 資料庫系統 ANSI/SPARC 架構[略]
 
 III.資料庫管理系統
-  SQL(Structured Query Language)
-     DDL|DML|DCL
+ 資料的運算 CRUD== Create(建立), Read(讀取), Update(更新), Delete(刪除)
+ 執行資料運算的語法: SQL(Structured Query Language)  DDL|DML|DCL
    
 IV.大數據
   Big data的特色: 3V vs 5V
@@ -73,8 +73,8 @@ IV.大數據
 資料庫系統 ANSI/SPARC 架構[略]
 ```
 ## III.資料庫管理系統
- SQL(Structured Query Language)
-     DDL|DML|DCL
+資料的運算 CRUD== Create(建立), Read(讀取), Update(更新), Delete(刪除)
+執行資料運算的語法: SQL(Structured Query Language)  DDL|DML|DCL
 ```
 • 資料字典（data dictionary），有時也稱為資料儲存庫（repository），內含有關資料庫中每個檔案，以及這些檔案中每個欄位的資料。
 
