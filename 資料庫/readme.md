@@ -27,6 +27,11 @@ IV.大數據
 ```
 ## I.基本觀念
 ### 資料階層data hierarchy
+```
+資料階層(data hierarchy):
+  Bit（位元）→Byte（字元）→Field（資料欄）→Record（資料錄）→Table（資料表）→Data Base（資料庫）
+
+```
 ### 資料表: 欄位（field）與 記錄（record）
 ### 資料庫、資料與資訊
 ### 檔案處理系統 vs. 資料庫[各有何優缺點]
@@ -58,13 +63,18 @@ IV.大數據
 ## II.資料庫理論:
 ```
 資料模型（data model）: 
-   Network 
-   Hierarchical data model
-   relational Data Model
+   Network data model[1969,Charles Bachman]
+   Hierarchical data model[60年代,IBM]
+   relational Data Model[1969, Edgar F. Codd]
+   
    Object-oriented data model
    Multi-dimensioncal data model[data warehouse  vs Data Mall]
+
+資料庫系統 ANSI/SPARC 架構[略]
 ```
 ## III.資料庫管理系統
+ SQL(Structured Query Language)
+     DDL|DML|DCL
 ```
 • 資料字典（data dictionary），有時也稱為資料儲存庫（repository），內含有關資料庫中每個檔案，以及這些檔案中每個欄位的資料。
 
@@ -79,6 +89,7 @@ IV.大數據
 • 資料庫會因為硬體故障、軟體問題、人為疏失或火災洪水等災害而受損或毀壞。
 ```
 ## IV.大數據
+### Big data的特色: 3V vs 5V
 ```
 • 專家經常以 3個V 和 5個 V 來描述大數據的特徵：
  3個V :volume（數量）、velocity（速度）以及 variety（多樣性）
@@ -90,14 +101,7 @@ IV.大數據
   -  Value    （價值化）大量的不相關信息，對未來趨勢與模式的可預測分析，深度複雜分析
   –  Veracity （真實性）大數據中的內容是與真實世界中的發生息息相關的研究大數據就是從龐大的網絡數據中提取出能夠解釋和預測現實事件的過程
 ```
-### 大數據的來源和用途
-```
-• 企業產生大數據的方式之一是收集顧客行為
-```
-### 資料視覺化
-```
-• 資料視覺化（data visualization）指的是將資料以圖像方式表達成圖表或地圖等各種圖形格式，目的是讓結果資訊更容易被理解
-```
+###  大數據興起激發出新興資料庫發明===> NoSQL 
 
 
 
