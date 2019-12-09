@@ -8,18 +8,22 @@ I.基本觀念
 
 II.資料庫理論:
 資料模型（data model）: 
-   Network 
-   Hierarchical data model
-   relational Data Model
+   Network data model[1969,Charles Bachman]
+   Hierarchical data model[60年代,IBM]
+   relational Data Model[1969, Edgar F. Codd]
+   
    Object-oriented data model
    Multi-dimensioncal data model[data warehouse  vs Data Mall]
 
+資料庫系統 ANSI/SPARC 架構[略]
+
 III.資料庫管理系統
-
-IIII.大數據
-  大數據的來源和用途
-  資料視覺化
-
+  SQL(Structured Query Language)
+     DDL|DML|DCL
+   
+IV.大數據
+  Big data的特色: 3V vs 5V
+  大數據興起激發出新興資料庫發明===> NoSQL 
 ```
 ## I.基本觀念
 ### 資料階層data hierarchy
@@ -37,7 +41,7 @@ IIII.大數據
   – 欄位大小（field size）
   – 資料型態（data type） 
 
-•	記錄（record）是一群相關欄位的組合
+• 記錄（record）是一群相關欄位的組合
   – 主鍵（primary key）是一個可唯一識別檔案中每筆記錄的欄位
 • 資料檔案（data file）是一群相關記錄的集合
 
@@ -74,7 +78,7 @@ IIII.大數據
 • 報表輸出程式（report writer）， 也稱為報表產生器（report generator），讓使用者能夠在螢幕上設計報表、擷取資料放入報表中，然後顯示或列印該報表
 • 資料庫會因為硬體故障、軟體問題、人為疏失或火災洪水等災害而受損或毀壞。
 ```
-## IIII.大數據
+## IV.大數據
 ```
 • 專家經常以 3個V 和 5個 V 來描述大數據的特徵：
  3個V :volume（數量）、velocity（速度）以及 variety（多樣性）
